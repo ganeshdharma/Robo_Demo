@@ -4,7 +4,7 @@ import time
 
 class serialtest(object):
     def test(self, a):
-        ser = serial.Serial("COM5")  # Open named port
+        ser = serial.Serial("COM4")  # Open named port
         ser.baudrate = 9600  # Set baud rate to 9600
         # Read ten characters from serial port to data
         ser.write(b'hello world')
